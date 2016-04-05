@@ -14,7 +14,7 @@ Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codal
 - sample_code_submission[n].zip
 
 where [n] is the round number.
- Consult Starting-kit.md to see the details of run.py execution 
+### <span style="color : blue ">Consult Starting-kit.md to see the details of run.py execution</span> 
 # Slower start
 
 ### Directories

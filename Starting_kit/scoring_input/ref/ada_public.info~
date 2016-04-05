@@ -1,0 +1,16 @@
+usage = 'AutoML challenge 2014'
+name = 'ada'
+task = 'binary.classification'
+target_type = 'Binary'
+feat_type = 'Binary'
+metric = 'auc_metric'
+feat_num = 100000
+target_num =     1
+label_num =     2
+train_num =   800
+valid_num =   350
+test_num =   800
+has_categorical =     0
+has_missing =     0
+is_sparse =     0
+time_budget = 100

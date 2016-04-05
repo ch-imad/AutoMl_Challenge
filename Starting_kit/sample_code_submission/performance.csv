@@ -1,0 +1,3 @@
+Data name,Nb estimators,System,Machine,Platform,memory used (Mb),number of CPU,Time spent (sec),Overall time budget (sec)
+arcene,895,Linux,x86_64,Linux-4.2.0-27-generic-x86_64-with-debian-jessie-sid,94371840,4,0.27835679054260254,100
+ada,464,Linux,x86_64,Linux-4.2.0-27-generic-x86_64-with-debian-jessie-sid,116383744,4,0.7142598628997803,200

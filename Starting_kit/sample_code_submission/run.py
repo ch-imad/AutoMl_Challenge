@@ -296,7 +296,7 @@ if __name__=="__main__" and debug_mode<4:
         start = time.time()                    # Reset the counter
         time_spent = 0                         # Initialize time spent learning
         cycle = 0
-        
+
         while time_spent <= time_budget/2 and cycle <= max_cycle and M.model.n_estimators<max_estimators:
             vprint( verbose,  "=========== " + basename.capitalize() +" Training cycle " + str(cycle) +" ================") 
             # Estimate the number of base estimators
@@ -338,7 +338,7 @@ if __name__=="__main__" and debug_mode<4:
 
 
             vprint( verbose,  "[+] Results saved, time spent so far %5.2f sec" % (time.time() - start))
-            time_spent = time.time() - start 
+            time_spent = time.time() - start
             time_left_over = time_budget - time_spent
             vprint( verbose,  "[+] End cycle, time left %5.2f sec" % time_left_over)
             if time_left_over<=0: break
@@ -347,11 +347,12 @@ if __name__=="__main__" and debug_mode<4:
         del D
         del M
         gc.collect()
+        all_time_spent = time.time() - overall_start # Time spent Cycle 0 + Cycle 1 ... + Cycle n 
         if(running_on_codalab == False):
             print ("[+] Write  performance")
             process = psutil.Process(os.getpid())
             mem_used = process.memory_info().rss
-            data_io.platform_score( basename , mem_used,last_n_estimators , time_spent, overall_time_budget)
+            data_io.platform_score( basename , mem_used,last_n_estimators , all_time_spent, overall_time_budget)
     
     overall_time_spent = time.time() - overall_start
 

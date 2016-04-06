@@ -38,7 +38,7 @@ def file_to_libsvm (filename, data_binary  , n_features):
                 tmp = l.strip().split()
                 f.write("0 ")
                 for i in range (len(tmp) ):
-                    if(datatype):
+                    if(data_binary):
                         f.write(tmp[i]+":1 ")
                     else:
                         f.write(tmp[i]+" ")

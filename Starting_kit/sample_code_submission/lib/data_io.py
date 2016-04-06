@@ -35,7 +35,6 @@ from os import getcwd as pwd
 from pip import get_installed_distributions as lib
 import yaml
 from shutil import copy2
-from sklearn.datasets import load_svmlight_file
 import csv
 import psutil
 import platform
@@ -156,6 +155,7 @@ def check_dataset(dirname, name):
 		exit(1)
     return True
 
+
 def data(filename, nbr_features=None, verbose = False):
     ''' The 2nd parameter makes possible a using of the 3 functions of data reading (data, data_sparse, data_binary_sparse) without changing parameters'''
     if verbose: print (np.array(data_converter.file_to_array(filename)))
@@ -165,9 +165,7 @@ def data_sparse (filename, nbr_features):
     ''' This function takes as argument a file representing a sparse matrix
     sparse_matrix[i][j] = "a:b" means matrix[i][a] = basename and load it with the loadsvm load_svmlight_file
     '''
-    print ("-------------------- load_svmlight_file ---------------------")
-    l = load_svmlight_file(filename, multilabel = True , n_features = nbr_features) 
-    return l[0]
+    return data_converter.file_to_libsvm (filename = filename, data_binary = False  , n_features = nbr_features)
 
 
 
@@ -176,19 +174,7 @@ def data_binary_sparse (filename , nbr_features):
     sparse_binary_matrix[i][j] = "a"and transforms it temporarily into file svmlibs format( <index2>:<value2>)
     to load it with the loadsvm load_svmlight_file
     '''
-    data =[]
-    with open(filename, "r") as data_file:
-        lines = data_file.readlines()
-        with open('tmp.txt', 'w') as f:
-            for l in lines  :
-                tmp = l.strip().split()
-                for i in range (len(tmp) ):
-                    f.write(tmp[i]+":1 ")
-                f.write("\n")
-    print ("-------------------- load_svmlight_file ---------------------")
-    d = load_svmlight_file('tmp.txt', multilabel=True ,  n_features = nbr_features)
-    os.remove("tmp.txt")
-    return d[0]
+    return data_converter.file_to_libsvm (filename = filename, data_binary = True  , n_features = nbr_features)
 
 
  

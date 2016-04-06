@@ -27,6 +27,27 @@ def file_to_array (filename, verbose=False):
         data = [lines[i].strip().split() for i in range (len(lines))]
     return data
 
+def file_to_libsvm (filename, data_binary  , n_features):
+    ''' Converts a file to a list of list of STRING
+    It differs from np.genfromtxt in that the number of columns doesn't need to be constant'''
+    data =[]
+    with open(filename, "r") as data_file:
+        lines = data_file.readlines()
+        with open('tmp.txt', 'w') as f:
+            for l in lines  :
+                tmp = l.strip().split()
+                f.write("0 ")
+                for i in range (len(tmp) ):
+                    if(datatype):
+                        f.write(tmp[i]+":1 ")
+                    else:
+                        f.write(tmp[i]+" ")
+                f.write("\n")
+    print ("-------------------- file_to_libsvm  ---------------------")
+    l = load_svmlight_file('tmp.txt', zero_based= False ,  n_features = nbr_features )
+    os.remove("tmp.txt")
+    return l[0]
+
 def read_first_line (filename):
 	''' Read fist line of file'''
 	data =[]

@@ -44,7 +44,7 @@ def file_to_libsvm (filename, data_binary  , n_features):
                         f.write(tmp[i]+" ")
                 f.write("\n")
     print ("-------------------- file_to_libsvm  ---------------------")
-    l = load_svmlight_file('tmp.txt', zero_based= False ,  n_features = nbr_features )
+    l = load_svmlight_file('tmp.txt', zero_based= False ,  n_features = n_features )
     os.remove("tmp.txt")
     return l[0]
 

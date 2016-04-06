@@ -322,13 +322,13 @@ def total_size(o, handlers={}, verbose=False):
     return sizeof(o)
 
     # write the results in a csv file
-def platform_score ( basename , mem_used ,n_estimators , time_spent , overall_time_budget ):
+def platform_score ( basename , mem_used ,n_estimators , time_spent , time_budget ):
 # write the results and platform information in a csv file (performance.csv)
     with open('performance.csv', 'a') as fp:
         a = csv.writer(fp, delimiter=',')
-        #['Data name','Nb estimators','System', 'Machine' , 'Platform' ,'memory used (Mb)' , 'number of CPU' ,' time spent (sec)' , 'Overall time budget (sec)'],
+        #['Data name','Nb estimators','System', 'Machine' , 'Platform' ,'memory used (Mb)' , 'number of CPU' ,' time spent (sec)' , 'time budget (sec)'],
         data = [
-        [basename,n_estimators,platform.system(), platform.machine(),platform.platform() , mem_used , str(psutil.cpu_count()) , time_spent ,    overall_time_budget ]
+        [basename,n_estimators,platform.system(), platform.machine(),platform.platform() , float("{0:.2f}".format(mem_used/1048576.0)) , str(psutil.cpu_count()) , float("{0:.2f}".format(time_spent)) ,    time_budget ]
         ]
         a.writerows(data)
 

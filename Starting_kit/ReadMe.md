@@ -5,7 +5,16 @@
 <i> All python exercises require the<a href="http://continuum.io/downloads" > Anaconda </a>distribution of Python 2.7 downloadable from 
 This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
 
-# Super-fast start
+# Quick start
+
+### Running the sample code on your local machine
+- Copy the dataset in the directory: ../sample_input
+- Update the root_directory link in run.py with your local directory
+- Execute the code from your terminal : $python run.py
+
+### Running the sample code with Jupyter Notebook
+- Launch a the notebook from your terminal: $jupyter notebook starting_kit.ipynb
+- Update the root_dir to link with your local directory: root_dir = "[...]/Starting_kit/"
 
 Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codalab platform </a> :
 

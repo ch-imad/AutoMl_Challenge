@@ -65,8 +65,8 @@ max_time = 30
 ### Maximum number of cycles, number of samples, and estimators
 <i>Your training algorithm may be fast, so you may want to limit anyways the 
 number of points on your learning curve (this is on a log scale, so each 
-point uses twice as many time than the previous one.)
-The original code was modified to do only a small "time probing" followed
+point uses twice as much time than the previous one.)
+The original code was modified to do only a small "time trial" followed
 by one single cycle. We can now also give a maximum number of estimators 
 (base learners).</i>
 

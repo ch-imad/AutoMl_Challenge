@@ -9,12 +9,12 @@ This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
 
 ### Running the sample code on your local machine
 - Copy the dataset in the directory: ../sample_input
-- Update the root_directory link in run.py with your local directory
-- Execute the code from your terminal : $python run.py
+- Update the root_directory in run.py to link to your local directory
+- Execute the code from a terminal : $python run.py
 
 ### Running the sample code with Jupyter Notebook
 - Launch a the notebook from your terminal: $jupyter notebook starting_kit.ipynb
-- Update the root_dir to link with your local directory: root_dir = "[...]/Starting_kit/"
+- Update the root_dir to link to your local directory: root_dir = "[...]/Starting_kit/"
 
 Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codalab platform </a> :
 

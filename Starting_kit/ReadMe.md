@@ -20,7 +20,7 @@ This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
     `$ jupyter notebook starting_kit.ipynb`
 - Update the root_dir to link to your local directory: root_dir = "[...]/Starting_kit/"
 
-### Submit result or code to the <a href="https://competitions.codalab.org/competitions/2321">Codalab platform </a> :
+### Submit results or code to the <a href="https://competitions.codalab.org/competitions/2321">Codalab platform </a> :
 
 - sample_result_submission[n].zip
     - Or

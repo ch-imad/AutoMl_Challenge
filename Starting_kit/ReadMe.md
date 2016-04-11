@@ -13,7 +13,7 @@ Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codal
     - Or
 - sample_code_submission[n].zip
 
-where [n] is the round number.     
+where [n] is the round number (must put links).     
  Consult<a href='https://github.com/ch-imad/AutoMl_Challenge/blob/master/Starting_kit/starting_kit.md'> Starting-kit.md </a>
 to see the details of run.py execution</span> 
 # Slower start

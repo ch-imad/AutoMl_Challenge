@@ -29,8 +29,11 @@ def file_to_array (filename, verbose=False):
     return data
 
 def file_to_libsvm (filename, data_binary  , n_features):
-    ''' Converts a file to a list of list of STRING
-    It differs from np.genfromtxt in that the number of columns doesn't need to be constant'''
+    ''' Converts a file to svmlib format and return csr matrix 
+    filname = path of file 
+    data_binary = True if is sparse binary data False else 
+    n_features = number of features
+    '''
     data =[]
     with open(filename, "r") as data_file:
         lines = data_file.readlines()

@@ -5,7 +5,7 @@
 <i> All python exercises require the<a href="http://continuum.io/downloads" > Anaconda </a>distribution of Python 2.7 downloadable from 
 This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
 
-# Super-fast start
+# Quick start
 
 Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codalab platform </a> :
 
@@ -13,8 +13,9 @@ Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codal
     - Or
 - sample_code_submission[n].zip
 
-where [n] is the round number.
-### <span style="color : blue ">Consult Starting-kit.md to see the details of run.py execution</span> 
+where [n] is the round number (must put links).     
+ Consult<a href='https://github.com/ch-imad/AutoMl_Challenge/blob/master/Starting_kit/starting_kit.md'> Starting-kit.md </a>
+to see the details of run.py execution</span> 
 # Slower start
 
 ### Directories

@@ -2,8 +2,6 @@
 # <a href="https://competitions.codalab.org/competitions/2321">Automatic Machine Learning Challenge (AutoML) </a>Design the perfect machine learning .
 ### <a href=http://automl.chalearn.org/>ChaLearn</a>Automatic Machine Learning: Until Jan. 2016, $30,000 in prizes donated by Microsoft. 
 
-<i> Isabelle Guyon (Chalearn)</i>
-
 ## Introduction
 
 AutoMl : 

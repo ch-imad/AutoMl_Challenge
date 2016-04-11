@@ -13,8 +13,9 @@ Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codal
     - Or
 - sample_code_submission[n].zip
 
-where [n] is the round number.
-### <span style="color : blue ">Consult Starting-kit.md to see the details of run.py execution</span> 
+where [n] is the round number.     
+ Consult<a href='https://github.com/ch-imad/AutoMl_Challenge/blob/master/Starting_kit/starting_kit.md'> Starting-kit.md </a>
+to see the details of run.py execution</span> 
 # Slower start
 
 ### Directories

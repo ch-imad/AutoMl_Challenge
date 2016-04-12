@@ -4,9 +4,11 @@
 ### We call <a href="https://www.codalab.org/competitions/1381" >AutoML</a> the website URL of the challenge.                     
 <i> All python exercises require the<a href="http://continuum.io/downloads" > Anaconda </a>distribution of Python 2.7 downloadable from 
 This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
-
-# Quick start
-
+# Update Starting kit     
+#### Instructions   
+- Download and save lib_patch.zip file  
+- Replace the data_io.py and data_convert.py files in lib directory ( your version )  with  data_io.py and data_convert.py files ( lib_patch ) 
+# Quick start   
 Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codalab platform </a> :
 
 - sample_result_submission[n].zip
@@ -16,7 +18,7 @@ Submit to the <a href="https://competitions.codalab.org/competitions/2321">Codal
 where [n] is the round number (must put links).     
  Consult<a href='https://github.com/ch-imad/AutoMl_Challenge/blob/master/Starting_kit/starting_kit.md'> Starting-kit.md </a>
 to see the details of run.py execution</span> 
-# Slower start
+# Slower start 
 
 ### Directories
 

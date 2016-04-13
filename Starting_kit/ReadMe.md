@@ -9,6 +9,19 @@ This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
 #### Instructions   
 - Download and save lib_patch.zip file  
 - Replace the data_io.py and data_convert.py files in lib directory ( your version )  with  data_io.py and data_convert.py files ( lib_patch ) 
+## Functions list update : 
+- In data_io.py file 
+```python
+def data_sparse (filename, nbr_features) :
+
+def data_binary_sparse (filename , nbr_features):
+```
+_ In data_convert.py file 
+```python
+def file_to_libsvm (filename, data_binary , n_features):
+```
+
+
 
 
 # Quick start

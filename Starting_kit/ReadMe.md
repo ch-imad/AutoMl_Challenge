@@ -11,7 +11,7 @@ This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
 - Replace the data_io.py and data_convert.py files in lib directory ( your version )  with  data_io.py and data_convert.py files ( lib_patch ) 
 
 
-## Functions list update : 
+##### Functions list update : 
 - In data_io.py file 
 ```python
 def data_sparse (filename, nbr_features) :

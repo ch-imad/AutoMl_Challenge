@@ -2,7 +2,7 @@
 # <a href="https://competitions.codalab.org/competitions/2321">Automatic Machine Learning Challenge (AutoML) </a>Design the perfect machine learning .
 ### <a href=http://automl.chalearn.org/>ChaLearn</a>Automatic Machine Learning: Until Jan. 2016, $30,000 in prizes donated by Microsoft. 
 
-<i> Imad Chaabane </i>
+<i> Main contributors: Arthur Pesah, Isabelle Guyon, Lukasz Romaszko, Imad Chaabane </i>
 
 ## Introduction
 
@@ -10,10 +10,10 @@ AutoMl :
 ![alt text](http://automl.chalearn.org/_/rsrc/1416778116983/home/NewSpiral.png?height=224&width=400 "Logo Title Text 1")
 
 Be part of the exciting ChaLearn AutoML challenge (5 rounds until March, 2016, 30 datasets, $30,000 in prizes): design the perfect machine learning “black box” capable of performing all model selection and hyper-parameter tuning without any human intervention:
-- Round 0: Preparation. 
-- Round 1: Binary classification (Novice phase). 
-- Round 2: Multiclass classification (Intermediate phase).
-- Round 3: Multilabel classification (Advanced phase). 
+- <a href="https://competitions.codalab.org/competitions/7471">Round 0: Preparation.</a> 
+- <a href="https://competitions.codalab.org/competitions/7462">Round 1: Binary classification (Novice phase).</a> 
+- <a href="https://competitions.codalab.org/competitions/7461">Round 2: Multiclass classification (Intermediate phase).</a>
+- <a href="https://competitions.codalab.org/competitions/7451">Round 3: Multilabel classification (Advanced phase).</a> 
 - Round 4: Regression (Expert phase).
 - Round 5: Everything (Master phase).
 

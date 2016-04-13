@@ -38,7 +38,6 @@ where [n] is the round number (must put links).
 to see the details of run.py execution</span> 
 # Slower start 
 =======
-where [n] is the round number.
 
 Find detailed step-by-step instructions for submitting below after directories description
 

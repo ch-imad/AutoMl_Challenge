@@ -26,7 +26,7 @@ def file_to_libsvm (filename, data_binary , n_features):
 
 
 
-# Or, Quick start
+# Or, Quick Start:
 
 ### Running the sample code on your local machine
 - Copy the dataset in the directory: ../sample_input/
@@ -34,7 +34,7 @@ def file_to_libsvm (filename, data_binary , n_features):
 - Execute the code from a terminal :  
    `$ python run.py`
 
-<span style="color : blue "> Consult Starting-kit.md to see the details of run.py execution </span> 
+<span style="color : blue "> Consult <a href="https://github.com/ch-imad/AutoMl_Challenge/blob/master/Starting_kit/starting_kit.md">Starting-kit.md</a> to see the details of run.py execution </span> 
 
 ### Running the sample code with Jupyter Notebook
 - Launch the starting_kit notebook :  

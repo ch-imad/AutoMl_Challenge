@@ -1,11 +1,11 @@
 
 # ReadMe
 
-### We call <a href="https://www.codalab.org/competitions/1381" >AutoML</a> the website URL of the challenge.                     
+### We call <a href="http://codalab.org/AutoML/" >AutoML</a> the website URL of the challenge.                     
 <i> All python exercises require the<a href="http://continuum.io/downloads" > Anaconda </a>distribution of Python 2.7 downloadable from 
 This version was tested with: Python 2.7.8 | Anaconda 2.1.0 (x86_64).</i>
 
-# Update Starting kit     
+# Update Starting kit (from older versions)     
 #### Instructions   
 - Download and save lib_patch.zip file  
 - Replace the data_io.py and data_convert.py files in lib directory ( your version )  with  data_io.py and data_convert.py files ( lib_patch ) 
@@ -26,7 +26,7 @@ def file_to_libsvm (filename, data_binary , n_features):
 
 
 
-# Quick start
+# Or, Quick start
 
 ### Running the sample code on your local machine
 - Copy the dataset in the directory: ../sample_input/
